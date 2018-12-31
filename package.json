@@ -1,27 +1,41 @@
 {
-  "name": "mongo-passport-rest-express",
-  "version": "1.0.0",
-  "description": "Complete boilerplate for Restful Express App",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "node",
-    "mongodb",
-    "passport",
-    "express",
-    "rest"
-  ],
-  "author": "Prince Neil Cedrick S. Castro",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate/issues"
-  },
-  "homepage": "https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate#readme"
+    "name": "mongo-passport-rest-express",
+    "version": "1.0.0",
+    "description": "Complete boilerplate for Restful Express App",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./server/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate.git"
+    },
+    "keywords": [
+        "boilerplate",
+        "node",
+        "mongodb",
+        "passport",
+        "express",
+        "rest"
+    ],
+    "author": "Prince Neil Cedrick S. Castro",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate/issues"
+    },
+    "homepage": "https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate#readme",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "express-flash-messages": "^0.1.1",
+        "express-session": "^1.15.6",
+        "express-validator": "^5.3.1",
+        "mongoose": "^5.4.1",
+        "morgan": "^1.9.1",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0"
+    }
 }
