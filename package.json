@@ -1,0 +1,27 @@
+{
+  "name": "mongo-passport-rest-express",
+  "version": "1.0.0",
+  "description": "Complete boilerplate for Restful Express App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "node",
+    "mongodb",
+    "passport",
+    "express",
+    "rest"
+  ],
+  "author": "Prince Neil Cedrick S. Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate/issues"
+  },
+  "homepage": "https://github.com/git-ced/node-express-mongo-rest-passport-boilerplate#readme"
+}
